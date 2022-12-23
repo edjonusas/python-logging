@@ -3,18 +3,23 @@
 pip install kafka-python
 pip install python-decouple
 
-2 install and run docker 
+2. create .env file and add info
+
+ELK_VERSION=8.5.0
+KAFKA_SERVER_HOST="localhost:9092"
+
+3. install and run docker
 
 docker-compose up
 
-3. create kafka topic 
+4. create kafka topic
 
 kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic [topic_name]
 
-4. Add elasticsearch template 
+5. Add elasticsearch template
 
 example elsaticsearch-template-log.json
 
-5. run script 
+6. run script
 
 python producer.py
