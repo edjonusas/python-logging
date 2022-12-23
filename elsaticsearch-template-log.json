@@ -1,0 +1,112 @@
+{
+  "dynamic_templates": [],
+  "properties": {
+    "date": {
+      "type": "text"
+    },
+    "devid": {
+      "type": "text"
+    },
+    "srcip": {
+      "type": "ip"
+    },
+    "poluuid": {
+      "type": "text"
+    },
+    "srcintfrole": {
+      "type": "text"
+    },
+    "dstport": {
+      "type": "integer"
+    },
+    "eventtime": {
+      "format": "strict_date_optional_time||epoch_second",
+      "index": true,
+      "ignore_malformed": false,
+      "store": false,
+      "type": "date_nanos",
+      "doc_values": true
+    },
+    "sentpkt": {
+      "type": "integer"
+    },
+    "sessionid": {
+      "type": "text"
+    },
+    "syslog": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "text"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "srccountry": {
+      "type": "text"
+    },
+    "policyid": {
+      "type": "integer"
+    },
+    "subtype": {
+      "type": "text"
+    },
+    "action": {
+      "type": "text"
+    },
+    "devname": {
+      "type": "text"
+    },
+    "dstip": {
+      "type": "ip"
+    },
+    "dstintf": {
+      "type": "text"
+    },
+    "trandisp": {
+      "type": "text"
+    },
+    "sentbyte": {
+      "type": "integer"
+    },
+    "srcintf": {
+      "type": "text"
+    },
+    "level": {
+      "type": "text"
+    },
+    "policytype": {
+      "type": "text"
+    },
+    "vd": {
+      "type": "text"
+    },
+    "appcat": {
+      "type": "text"
+    },
+    "dstintfrole": {
+      "type": "text"
+    },
+    "service": {
+      "type": "text"
+    },
+    "proto": {
+      "type": "integer"
+    },
+    "srcport": {
+      "type": "integer"
+    },
+    "logid": {
+      "type": "text"
+    },
+    "time": {
+      "type": "text"
+    },
+    "dstcountry": {
+      "type": "text"
+    },
+    "rcvdbyte": {
+      "type": "integer"
+    }
+  }
+}
